@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+/* the above applies a font size and font family to the whole document */
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+/* using he h1 selector means these styling changes will be applied to the h1 only */
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+/* remember, you can stack selectors (p, h1, li, etc.) to apply styling changes to different elements at once */
+
+html {
+  background-color: #82A7AF
+}
+
+/* also remember, you can add more styling to rulesets that share the same selector */
+
+/* the above example is separate from the other html ruleset just to stay consistent with the guide */
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #9FBBC0;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #9FBBC0;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+}
